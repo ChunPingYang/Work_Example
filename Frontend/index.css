@@ -1,0 +1,153 @@
+@import '../node_modules/@blueprintjs/core/dist/blueprint.css';
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: white;
+  background-image: url("./images/blur-bg.jpg");
+  width: 100%; }
+
+table {
+  border-collapse: collapse;
+}
+
+table, thead, tr, td {
+  border: 1px solid black;
+  color: white; }
+
+ul {
+  list-style-type: none;
+  margin: 0 0 1 0;
+  padding: 0; }
+
+li {
+  padding-top: 5px; }
+
+.chat {
+  min-height: 400px;
+  height: 100%; }
+
+.centeringText {
+  align-items: center;
+  text-align: center; }
+
+.leftingText {
+  align-items: left;
+  text-align: left;
+}
+
+.page-container .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  mix-blend-mode: overlay; }
+
+.middlingVAlign {
+  vertical-align: middle; }
+
+.w3-circle {
+  border-radius: 50%; }
+
+.contacts {
+  max-height: 20px; }
+
+.transparentThis {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.transparentThisDeeper {
+  background-color: rgba(0, 0, 0, 0.7); }
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+li:focus {
+  background-color: #394B59
+}
+
+.activeNavLink{
+  background-color: #394B59
+}
+
+.card-padding {
+  margin: -5px -20px -10px -20px;
+  text-align: center;
+}
+
+#react-paginate ul {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#react-paginate li {
+    display: inline-block;
+}
+
+#react-paginate .break a {
+    cursor: default;
+    color: #000000;
+}
+
+.leftMenuSpan {
+  padding-right: 9px;
+  cursor: pointer;
+}
+
+.chatBorder {
+  border-bottom: thin solid #000000;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    width: 40px;
+    min-height: 20px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #394B59;
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.defaultTextColor {
+  color: white;
+}
+
+.bg-green {
+  background-color: #3C643C;
+}
+
+#container {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  height: 300px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.white-color {
+  color: white;
+}
+
+.red-color {
+  color: red;
+  text-emphasis-color: red;
+}
